@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Rock Paper Scisscors</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/fa7637847c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>ROCK PAPER SCISSORS</h1>
+
+        <div class="container-choices">
+            <div class="player-choices">
+                <h2 class="playerScore">YOU: 0</h2>
+                <button type="button" class="button-player button-player-rock"><img src="images/rock.png"></button>
+                <button type="button" class="button-player button-player-paper"><img src="images/paper.png"></button>
+                <button type="button" class="button-player button-player-scissors"><img src="images/scissors.png"></button>
+            </div>
+
+            <div class="computer-choices">
+                <h2 class="aiScore">ME: 0</h2>
+                <button type="button" class="button-ai ai-rock" disabled><img src="images/rock.png"></button>
+                <button type="button" class="button-ai ai-paper" disabled><img src="images/paper.png"></button>
+                <button type="button" class="button-ai ai-scissors" disabled><img src="images/scissors.png"></button>
+            </div>
+        </div>
+
+        <h2 class="playText">Choose your move</h2>
+
+        <script src="script.js"></script>
+    </body>
+</html>
